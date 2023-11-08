@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.bg { 
+  position: relative;
+  align-items: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.box {
+  position: absolute;
+  top: 100px;
+  left: 43%;
+  
+  -webkit-text-stroke: 0.1px brown;
+  
+}
+.inputData {
+  position: relative;
+  right: 20px;
+}
+
+.inputField {
+  border-radius: 30px;
+  background-color: transparent;
+  height: 28px;
+  width: 250px;
+  margin-bottom: 100px;
+}
+
+.location {
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+  left: -110px;
+  
+  width: 100px;
+}
+
+.searchIcon {
+  position: relative;
+  left: 233px;
+  top: 2.5px;
+}
+
+
+@media(max-width:800px) and (min-width:320px) {
+  .bg {
+  
+    position: relative;
+    align-items: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .box {
+    position: absolute;
+    left: 122px;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+
+  }
+
+  .location {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    left: -50px;
+    
+    width: 100px;
+  }
+
+  .inputData {
+    justify-content: center;
+    
+  }
+  .inputField {
+    
+    height: 28px;
+  width: 222px;
+
+  
+  }
+  .searchIcon {
+    position: relative;
+    left: 212px;
+    top: 1px;
+  }
+  }
+  
+  
+  
+
+@media (max-width:320px) {
+
+  .bg {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .box {
+    position: absolute;
+    left: 65px;
+    align-items: center;
+    font-size: 9px;
+    justify-content: center;
+
+  }
+
+  .location {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    left: -50px;
+    
+    width: 100px;
+  }
+
+  .inputData {
+    justify-content: center;
+  }
+  .inputField {
+    
+    height: 28px;
+  width: 123px;
+
+  
+  }
+  .searchIcon {
+    position: relative;
+    left: 111px;
+    top: 1px;
+  }
+  }
+  
